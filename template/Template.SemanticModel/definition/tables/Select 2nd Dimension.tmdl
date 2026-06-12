@@ -1,0 +1,51 @@
+table 'Select 2nd Dimension'
+	lineageTag: 7f3b60dd-e6d9-4ab8-93ef-86633b79cc57
+
+	column 'Select 2nd Dimension'
+		lineageTag: 4fb26aeb-1cf6-4a92-b307-6e92e12fb301
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Select 2nd Dimension Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Select 2nd Dimension Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Select 2nd Dimension Fields'
+		isHidden
+		lineageTag: 861bd2c3-07b2-427d-be62-e2a0365bac43
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Select 2nd Dimension Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Select 2nd Dimension Order'
+		isHidden
+		formatString: 0
+		lineageTag: b3624f7b-13f4-4b12-ac22-bce5ace7e47f
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Select 2nd Dimension' = calculated
+		mode: import
+		source =
+				{
+				    ("Key_Dim_1", NAMEOF('Fact'[Key_Dim_1]), 0),
+				    ("Key_Dim_2", NAMEOF('Fact'[Key_Dim_2]), 1),
+				    ("Key_Dim_3", NAMEOF('Fact'[Key_Dim_3]), 2),
+				    ("Key_Dim_4", NAMEOF('Fact'[Key_Dim_4]), 3),
+				    ("Key_Dim_5", NAMEOF('Fact'[Key_Dim_5]), 4)
+				}
+
+	annotation PBI_Id = 3cb9b622df9e4bec8c7fa699b8b2a71e
+

@@ -1,0 +1,389 @@
+table Fact
+	lineageTag: 75f59368-59e6-4ab8-8972-5cd15adc3fe7
+
+	measure DAX_SUM_Measure_1 = SUM('Fact'[SUM_Measure_1])
+		formatString: 0
+		lineageTag: 1321ede1-69c1-47bc-869e-237b0d3468f1
+
+	measure DAX_SUM_Measure_2 = SUM('Fact'[SUM_Measure_2])
+		formatString: 0
+		lineageTag: 8bf7957e-25cf-44bc-a29f-2f9a806657d7
+
+	measure DAX_CNT_Measure_1 = DISTINCTCOUNT('Fact'[CNT_Measure_1])
+		formatString: 0
+		lineageTag: 74f71468-6f52-47a9-b1e5-c44dd3ffa0b6
+
+	measure DAX_CNT_Measure_2 = DISTINCTCOUNT('Fact'[CNT_Measure_2])
+		formatString: 0
+		lineageTag: 8ee785ca-a574-407f-b7a8-75a459f3fb42
+
+	column SUM_Measure_1
+		dataType: int64
+		formatString: 0
+		lineageTag: 8c77a79a-0326-423a-a4f3-14e827b5b39b
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_2
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f634acc-9c0c-4902-9db3-fa000b9cbdbe
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_3
+		dataType: int64
+		formatString: 0
+		lineageTag: e5cdc95f-0cbd-4750-9e73-523645041bc1
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_4
+		dataType: int64
+		formatString: 0
+		lineageTag: 0b396b5d-8cb9-4757-9a89-990a113edffd
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_4
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_5
+		dataType: int64
+		formatString: 0
+		lineageTag: 646a8f1b-29b8-4386-80dd-2869d8ef47ed
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_6
+		dataType: int64
+		formatString: 0
+		lineageTag: a22dca12-2175-4715-8e3b-161919206c59
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_6
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_7
+		dataType: int64
+		formatString: 0
+		lineageTag: 8db368df-f77f-4321-833c-01d7ef4c1a2b
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_7
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_8
+		dataType: int64
+		formatString: 0
+		lineageTag: d162de10-1951-4036-b5d4-f86310113cc3
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_8
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_9
+		dataType: int64
+		formatString: 0
+		lineageTag: c12ce407-659a-41f7-8a78-c9b6eee3c5e3
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_9
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUM_Measure_10
+		dataType: int64
+		formatString: 0
+		lineageTag: 2a43ed13-5754-40d2-b2e5-68d505c8efaa
+		summarizeBy: sum
+		sourceColumn: SUM_Measure_10
+
+		annotation SummarizationSetBy = Automatic
+
+	column CNT_Measure_1
+		dataType: int64
+		formatString: 0
+		lineageTag: e11bc7b2-aa1c-4f79-9ddc-30343ad52390
+		summarizeBy: sum
+		sourceColumn: CNT_Measure_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column CNT_Measure_2
+		dataType: int64
+		formatString: 0
+		lineageTag: 7c061ba5-505f-453c-bcc8-dbbb2ca50674
+		summarizeBy: sum
+		sourceColumn: CNT_Measure_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column CNT_Measure_3
+		dataType: int64
+		formatString: 0
+		lineageTag: 2dd19493-91b7-4be3-b399-4d9f3e1fa7d4
+		summarizeBy: sum
+		sourceColumn: CNT_Measure_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column CNT_Measure_4
+		dataType: int64
+		formatString: 0
+		lineageTag: f50a862c-e2fe-4cdf-9e81-db33424d89de
+		summarizeBy: sum
+		sourceColumn: CNT_Measure_4
+
+		annotation SummarizationSetBy = Automatic
+
+	column CNT_Measure_5
+		dataType: int64
+		formatString: 0
+		lineageTag: 22b2ba6e-486b-4132-b7a3-7ba5f959e460
+		summarizeBy: sum
+		sourceColumn: CNT_Measure_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column AVG_Measure_1
+		dataType: double
+		lineageTag: 5a239a13-4bbd-487d-ad8c-ac9690fa721a
+		summarizeBy: sum
+		sourceColumn: AVG_Measure_1
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column AVG_Measure_2
+		dataType: double
+		lineageTag: c5720416-01d2-4898-8e4f-bf7bf9837896
+		summarizeBy: sum
+		sourceColumn: AVG_Measure_2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column AVG_Measure_3
+		dataType: double
+		lineageTag: ac9751c9-e372-405a-9dce-ce8fa10600da
+		summarizeBy: sum
+		sourceColumn: AVG_Measure_3
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column AVG_Measure_4
+		dataType: double
+		lineageTag: 3fdb992b-ac48-4332-9fec-f2833f3241ca
+		summarizeBy: sum
+		sourceColumn: AVG_Measure_4
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column AVG_Measure_5
+		dataType: double
+		lineageTag: 65a3e905-6658-4971-a7b9-c5438da38f44
+		summarizeBy: sum
+		sourceColumn: AVG_Measure_5
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Key_Dim_1
+		dataType: string
+		lineageTag: 60927421-0c45-4d2a-b4af-bdcd47fd6c69
+		summarizeBy: none
+		sourceColumn: Key_Dim_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_2
+		dataType: string
+		lineageTag: 421529ce-8dc0-487f-9251-c6f9a12b5edf
+		summarizeBy: none
+		sourceColumn: Key_Dim_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_3
+		dataType: string
+		lineageTag: 4eb6e24b-00ef-452a-9285-c0623c7deccb
+		summarizeBy: none
+		sourceColumn: Key_Dim_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_4
+		dataType: string
+		lineageTag: 9a264a05-457c-42ef-a415-cf5827ef7866
+		summarizeBy: none
+		sourceColumn: Key_Dim_4
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_5
+		dataType: string
+		lineageTag: 7243d1e5-ee89-4e9c-ad09-8211110b7a35
+		summarizeBy: none
+		sourceColumn: Key_Dim_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_6
+		dataType: string
+		lineageTag: cc95828c-2668-4b4a-97d0-63da2da9ad37
+		summarizeBy: none
+		sourceColumn: Key_Dim_6
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_7
+		dataType: string
+		lineageTag: 224c97b6-f83f-4bda-965c-8aa0945a489d
+		summarizeBy: none
+		sourceColumn: Key_Dim_7
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_8
+		dataType: string
+		lineageTag: 25406572-84f0-4b97-ae8a-07f49799a8db
+		summarizeBy: none
+		sourceColumn: Key_Dim_8
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_9
+		dataType: string
+		lineageTag: c7ae84db-9a53-4bc7-96c0-87df35a01e3b
+		summarizeBy: none
+		sourceColumn: Key_Dim_9
+
+		annotation SummarizationSetBy = Automatic
+
+	column Key_Dim_10
+		dataType: string
+		lineageTag: e6688a86-333f-40d5-9e57-5907788a847d
+		summarizeBy: none
+		sourceColumn: Key_Dim_10
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_1
+		dataType: string
+		lineageTag: 8bd0e979-6825-4bbc-8e12-37976a742ee9
+		summarizeBy: none
+		sourceColumn: Other_Field_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_2
+		dataType: string
+		lineageTag: f45a9bda-f6d6-4144-8043-a89db750f2ee
+		summarizeBy: none
+		sourceColumn: Other_Field_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_3
+		dataType: string
+		lineageTag: 19c140c7-024d-4742-b812-ec1c5716994a
+		summarizeBy: none
+		sourceColumn: Other_Field_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_4
+		dataType: string
+		lineageTag: 647d1e3f-691d-4050-a8dd-d2f2fdd8494a
+		summarizeBy: none
+		sourceColumn: Other_Field_4
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_5
+		dataType: string
+		lineageTag: f4e6ebbb-8639-4d7f-84e3-2e1abdac5ffb
+		summarizeBy: none
+		sourceColumn: Other_Field_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_6
+		dataType: string
+		lineageTag: 44e998b6-729e-4f6e-80a0-bbe4107290b9
+		summarizeBy: none
+		sourceColumn: Other_Field_6
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_7
+		dataType: string
+		lineageTag: c4f1de36-273b-45c1-9009-f1a32e50f707
+		summarizeBy: none
+		sourceColumn: Other_Field_7
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_8
+		dataType: string
+		lineageTag: 20b5ab21-b6af-4a99-ba6e-7ac9c2e160f4
+		summarizeBy: none
+		sourceColumn: Other_Field_8
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_9
+		dataType: string
+		lineageTag: 6da24c03-dd07-471a-9f5a-138161b5b80d
+		summarizeBy: none
+		sourceColumn: Other_Field_9
+
+		annotation SummarizationSetBy = Automatic
+
+	column Other_Field_10
+		dataType: string
+		lineageTag: 7b1a346b-77d4-4e2b-9058-b350b7be4184
+		summarizeBy: none
+		sourceColumn: Other_Field_10
+
+		annotation SummarizationSetBy = Automatic
+
+	column DateKey
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 06e880ad-3ba6-4e38-a58d-8c9a6ef2ca1b
+		summarizeBy: none
+		sourceColumn: DateKey
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Fact = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\YY\Life\projects\dashboard drafter\template\phase1_dummy_data.csv"),[Delimiter=",", Columns=41, Encoding=932, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"SUM_Measure_1", Int64.Type}, {"SUM_Measure_2", Int64.Type}, {"SUM_Measure_3", Int64.Type}, {"SUM_Measure_4", Int64.Type}, {"SUM_Measure_5", Int64.Type}, {"SUM_Measure_6", Int64.Type}, {"SUM_Measure_7", Int64.Type}, {"SUM_Measure_8", Int64.Type}, {"SUM_Measure_9", Int64.Type}, {"SUM_Measure_10", Int64.Type}, {"CNT_Measure_1", Int64.Type}, {"CNT_Measure_2", Int64.Type}, {"CNT_Measure_3", Int64.Type}, {"CNT_Measure_4", Int64.Type}, {"CNT_Measure_5", Int64.Type}, {"AVG_Measure_1", type number}, {"AVG_Measure_2", type number}, {"AVG_Measure_3", type number}, {"AVG_Measure_4", type number}, {"AVG_Measure_5", type number}, {"Key_Dim_1", type text}, {"Key_Dim_2", type text}, {"Key_Dim_3", type text}, {"Key_Dim_4", type text}, {"Key_Dim_5", type text}, {"Key_Dim_6", type text}, {"Key_Dim_7", type text}, {"Key_Dim_8", type text}, {"Key_Dim_9", type text}, {"Key_Dim_10", type text}, {"Other_Field_1", type text}, {"Other_Field_2", type text}, {"Other_Field_3", type text}, {"Other_Field_4", type text}, {"Other_Field_5", type text}, {"Other_Field_6", type text}, {"Other_Field_7", type text}, {"Other_Field_8", type text}, {"Other_Field_9", type text}, {"Other_Field_10", type text}, {"DateKey", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,4 @@
+relationship c09e4ef1-4e16-bc37-7385-34c16dfb2f20
+	fromColumn: Fact.DateKey
+	toColumn: Date.Date
+

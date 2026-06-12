@@ -1,0 +1,27 @@
+table LastRefresh
+	lineageTag: 68cd2b06-1bfd-4938-8a55-82f9f0c1319b
+
+	column 'Last Refreshed'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 4579f724-d936-4fbc-b523-ee7344e7716e
+		summarizeBy: none
+		sourceColumn: Last Refreshed
+
+		annotation SummarizationSetBy = Automatic
+
+	partition LastRefresh = m
+		mode: import
+		source =
+				let
+				    Source = #table(
+				        type table [Last Refreshed = datetime],
+				        {{DateTime.LocalNow()}}
+				    )
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

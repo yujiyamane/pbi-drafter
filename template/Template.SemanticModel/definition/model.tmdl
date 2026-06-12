@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-AU
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Fact","Date","LastRefresh"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Fact
+ref table Date
+ref table LastRefresh
+ref table 'Select Dimension'
+ref table 'Select Measure'
+ref table 'Select 2nd Dimension'
+
+ref cultureInfo en-US
+

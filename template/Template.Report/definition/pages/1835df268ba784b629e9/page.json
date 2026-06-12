@@ -1,0 +1,1723 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "1835df268ba784b629e9",
+  "displayName": "Drill through",
+  "displayOption": "FitToPage",
+  "height": 1126,
+  "width": 1850,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "fcd53a31fe54e7c93805",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_1"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "de0e17f315d69c0eca4c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_10"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "b31aed132d077e8ae1d3",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_2"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "5ee2ed45907a18b3efab",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_4"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "db1e7ccb4e447a02c46a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_5"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "aa18d9bfbbbb5e4b0517",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_6"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "3cb999c8c12f5fdb7b81",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_7"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "4bec8df70ceb8e5fa221",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_8"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "2da752eec071d1a46ae4",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_9"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "e82d71ce5bf060874751",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_10"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "2dbce0b0e1ece65bd983",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_1"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "2166f920f949566c071f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_10"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "687e0b3f6bfe49c9afdb",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_2"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "764ec1d2859adc20f18a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_3"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "0d2771817e4f9f9ab166",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_4"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "8df7a6538f38c740afea",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_5"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "519a1755ff1747ca0c56",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_6"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "53684dccbf6516eab8b6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_7"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "f6d76e369ea0ccc84f58",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_8"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "879d7420fb6c68700592",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_9"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "d2bb16941ad31a35fb1b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_2"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "cd39ea7042feee78dc27",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_3"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "eaddc326124345a7f639",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_4"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "5adc72fba512a1b48714",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_5"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "7214062da63a4ab95571",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_1"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "1218091cb67f59f5f866",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_2"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "ca628a5e93c1f655262b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_3"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "0bed3ae4701d67f8b6ec",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_4"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "6d1d575bf3d0cab7b8ba",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_5"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "9190640c52a369e82ac4",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DateKey"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "cdeba199ec9ad55819f0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_10"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "959697083b353f3db97b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_2"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "03d28e6450f22a1b3e8a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_3"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "b7f508a3366b9428c933",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_4"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "e43393accca30799dce6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_5"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "408d225ad25d4cd0ef25",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_6"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "169c4f51613abb6a3d22",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_7"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "e844dfc108cc776f1ee9",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_8"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "a75a08ccfdc2c0c157fd",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_9"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "d16371ef51c264dc6fa3",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DAX_CNT_Measure_1"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "04964d8f22ac53266205",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DAX_SUM_Measure_1"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "51e37f3d2da56146ad71",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DAX_SUM_Measure_2"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "cd0128c99e720f40fcc3",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Date"
+                  }
+                },
+                "Hierarchy": "Year Month Day Hierarchy"
+              }
+            },
+            "Level": "Year"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "002f364c1ede0b9c9882",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Date"
+                  }
+                },
+                "Hierarchy": "Year Month Day Hierarchy"
+              }
+            },
+            "Level": "Month"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "55713dbb350fd551a693",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Date"
+                  }
+                },
+                "Hierarchy": "Year Month Day Hierarchy"
+              }
+            },
+            "Level": "Day"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "ca902f180d7cc75d1c6f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Quarter"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "b63f20a45c0578bcfe2c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "FY Quarter"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "060113383252c474bee6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "FY"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "918e7c9908086f177915",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Financial Year Period"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "3c54c7406e4fb7b4d693",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Day"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "7cfc80823fa45d20a880",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Date YYYYMMDD"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "9c571c0874183ef6d7d5",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Date DMY"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "e03024612e42f7af5d98",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Calendar Year Period"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "1810387c42223a1a779c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "As of Month"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "cd9d3204db08f70f72bd",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "a66ba796d9b6d14ccefe",
+        "boundFilter": "fcd53a31fe54e7c93805",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_1"
+          }
+        }
+      },
+      {
+        "name": "236a105e51240cfd93f4",
+        "boundFilter": "de0e17f315d69c0eca4c",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_10"
+          }
+        }
+      },
+      {
+        "name": "24f17a3407dafd054c24",
+        "boundFilter": "b31aed132d077e8ae1d3",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_2"
+          }
+        }
+      },
+      {
+        "name": "cdca45a3daf6fa325cdc",
+        "boundFilter": "5ee2ed45907a18b3efab",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_4"
+          }
+        }
+      },
+      {
+        "name": "2e1e82b038513ebb9c69",
+        "boundFilter": "db1e7ccb4e447a02c46a",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_5"
+          }
+        }
+      },
+      {
+        "name": "1f42c24ac04b73e89c18",
+        "boundFilter": "aa18d9bfbbbb5e4b0517",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_6"
+          }
+        }
+      },
+      {
+        "name": "5a547d22910f5240ae2d",
+        "boundFilter": "3cb999c8c12f5fdb7b81",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_7"
+          }
+        }
+      },
+      {
+        "name": "1b5f00c89eef133fbc67",
+        "boundFilter": "4bec8df70ceb8e5fa221",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_8"
+          }
+        }
+      },
+      {
+        "name": "877285ef8240a0de9f2e",
+        "boundFilter": "2da752eec071d1a46ae4",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_9"
+          }
+        }
+      },
+      {
+        "name": "ca1f415dea2dd6175087",
+        "boundFilter": "e82d71ce5bf060874751",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Key_Dim_10"
+          }
+        }
+      },
+      {
+        "name": "8058776d9554d98f1c2b",
+        "boundFilter": "2dbce0b0e1ece65bd983",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_1"
+          }
+        }
+      },
+      {
+        "name": "c1136b70365866b05f5c",
+        "boundFilter": "2166f920f949566c071f",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_10"
+          }
+        }
+      },
+      {
+        "name": "3b6868e82846481678e7",
+        "boundFilter": "687e0b3f6bfe49c9afdb",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_2"
+          }
+        }
+      },
+      {
+        "name": "1217bdf5e43cb082b390",
+        "boundFilter": "764ec1d2859adc20f18a",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_3"
+          }
+        }
+      },
+      {
+        "name": "4f999bf64ec72eca48a4",
+        "boundFilter": "0d2771817e4f9f9ab166",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_4"
+          }
+        }
+      },
+      {
+        "name": "4a87ae4db68f6743c1a7",
+        "boundFilter": "8df7a6538f38c740afea",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_5"
+          }
+        }
+      },
+      {
+        "name": "40b6615b162b46cfa027",
+        "boundFilter": "519a1755ff1747ca0c56",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_6"
+          }
+        }
+      },
+      {
+        "name": "c117fcb180406333c1cf",
+        "boundFilter": "53684dccbf6516eab8b6",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_7"
+          }
+        }
+      },
+      {
+        "name": "8b14dc5d89a1a6a6c682",
+        "boundFilter": "f6d76e369ea0ccc84f58",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_8"
+          }
+        }
+      },
+      {
+        "name": "22076c8d1696ba824e4f",
+        "boundFilter": "879d7420fb6c68700592",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "SUM_Measure_9"
+          }
+        }
+      },
+      {
+        "name": "96af071f249449199fee",
+        "boundFilter": "d2bb16941ad31a35fb1b",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_2"
+          }
+        }
+      },
+      {
+        "name": "e9441d78a1a8217c8577",
+        "boundFilter": "cd39ea7042feee78dc27",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_3"
+          }
+        }
+      },
+      {
+        "name": "5c740d834e61add63e6d",
+        "boundFilter": "eaddc326124345a7f639",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_4"
+          }
+        }
+      },
+      {
+        "name": "ad0116a3d0b38bc3ca36",
+        "boundFilter": "5adc72fba512a1b48714",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "AVG_Measure_5"
+          }
+        }
+      },
+      {
+        "name": "3c057704dca9710c6c69",
+        "boundFilter": "7214062da63a4ab95571",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_1"
+          }
+        }
+      },
+      {
+        "name": "1abe2a7a6050ac9bdf25",
+        "boundFilter": "1218091cb67f59f5f866",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_2"
+          }
+        }
+      },
+      {
+        "name": "d764c81f81d233b9221c",
+        "boundFilter": "ca628a5e93c1f655262b",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_3"
+          }
+        }
+      },
+      {
+        "name": "60edf6b52fdb96a2c639",
+        "boundFilter": "0bed3ae4701d67f8b6ec",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_4"
+          }
+        }
+      },
+      {
+        "name": "b1165b83028cf9088b15",
+        "boundFilter": "6d1d575bf3d0cab7b8ba",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "CNT_Measure_5"
+          }
+        }
+      },
+      {
+        "name": "73113ccba860f5311a7d",
+        "boundFilter": "9190640c52a369e82ac4",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DateKey"
+          }
+        }
+      },
+      {
+        "name": "2eb1f1654bd461fc7c9c",
+        "boundFilter": "cdeba199ec9ad55819f0",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_10"
+          }
+        }
+      },
+      {
+        "name": "c411d2be2f9b5526325c",
+        "boundFilter": "959697083b353f3db97b",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_2"
+          }
+        }
+      },
+      {
+        "name": "a25817e58c8a3c90473b",
+        "boundFilter": "03d28e6450f22a1b3e8a",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_3"
+          }
+        }
+      },
+      {
+        "name": "c480828cced14c8c967b",
+        "boundFilter": "b7f508a3366b9428c933",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_4"
+          }
+        }
+      },
+      {
+        "name": "5358cfde0eb6410c8ed2",
+        "boundFilter": "e43393accca30799dce6",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_5"
+          }
+        }
+      },
+      {
+        "name": "8eb985c6932458f5314e",
+        "boundFilter": "408d225ad25d4cd0ef25",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_6"
+          }
+        }
+      },
+      {
+        "name": "2c91f0c0368860f55d59",
+        "boundFilter": "169c4f51613abb6a3d22",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_7"
+          }
+        }
+      },
+      {
+        "name": "a1508f4f1b121858ace3",
+        "boundFilter": "e844dfc108cc776f1ee9",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_8"
+          }
+        }
+      },
+      {
+        "name": "5130742b09d0c1b82bac",
+        "boundFilter": "a75a08ccfdc2c0c157fd",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "Other_Field_9"
+          }
+        }
+      },
+      {
+        "name": "83f57f114c7be673b3b8",
+        "boundFilter": "d16371ef51c264dc6fa3",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DAX_CNT_Measure_1"
+          }
+        }
+      },
+      {
+        "name": "77bc6b6bba26e7891c8d",
+        "boundFilter": "04964d8f22ac53266205",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DAX_SUM_Measure_1"
+          }
+        }
+      },
+      {
+        "name": "69c2b4f04643ff6cd543",
+        "boundFilter": "51e37f3d2da56146ad71",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact"
+              }
+            },
+            "Property": "DAX_SUM_Measure_2"
+          }
+        }
+      },
+      {
+        "name": "dbc4b3ab579b43929e1a",
+        "boundFilter": "cd0128c99e720f40fcc3",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Date"
+                  }
+                },
+                "Hierarchy": "Year Month Day Hierarchy"
+              }
+            },
+            "Level": "Year"
+          }
+        }
+      },
+      {
+        "name": "7d739ba891ff53566322",
+        "boundFilter": "002f364c1ede0b9c9882",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Date"
+                  }
+                },
+                "Hierarchy": "Year Month Day Hierarchy"
+              }
+            },
+            "Level": "Month"
+          }
+        }
+      },
+      {
+        "name": "a78a2a78d499ec83e909",
+        "boundFilter": "55713dbb350fd551a693",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Date"
+                  }
+                },
+                "Hierarchy": "Year Month Day Hierarchy"
+              }
+            },
+            "Level": "Day"
+          }
+        }
+      },
+      {
+        "name": "1eed89e558440e9f6be6",
+        "boundFilter": "ca902f180d7cc75d1c6f",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Quarter"
+          }
+        }
+      },
+      {
+        "name": "e5e625d7cd732624e0f5",
+        "boundFilter": "b63f20a45c0578bcfe2c",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "FY Quarter"
+          }
+        }
+      },
+      {
+        "name": "e069fbd49ce7d6a94b3c",
+        "boundFilter": "060113383252c474bee6",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "FY"
+          }
+        }
+      },
+      {
+        "name": "d5cf4d2d3da1decae74d",
+        "boundFilter": "918e7c9908086f177915",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Financial Year Period"
+          }
+        }
+      },
+      {
+        "name": "aa57b8324c68e0d1d048",
+        "boundFilter": "3c54c7406e4fb7b4d693",
+        "asAggregation": true,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Day"
+          }
+        }
+      },
+      {
+        "name": "ddc6c7baea30a136b8d0",
+        "boundFilter": "7cfc80823fa45d20a880",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Date YYYYMMDD"
+          }
+        }
+      },
+      {
+        "name": "468156c99604cb5a0da6",
+        "boundFilter": "9c571c0874183ef6d7d5",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Date DMY"
+          }
+        }
+      },
+      {
+        "name": "b509557ece3604595471",
+        "boundFilter": "e03024612e42f7af5d98",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "Calendar Year Period"
+          }
+        }
+      },
+      {
+        "name": "fd71295a6b0223825a06",
+        "boundFilter": "1810387c42223a1a779c",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": false,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Date"
+              }
+            },
+            "Property": "As of Month"
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode"
+}

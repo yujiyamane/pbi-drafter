@@ -1,0 +1,223 @@
+table Date
+	lineageTag: f6cfe776-ca84-4ec6-a61a-fb2a0b1d6940
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: db2c99a7-c057-4db8-8186-a03be2c10585
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 2cb9d08d-3290-4a28-b133-fb0a31130420
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Number'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7c400b05-7a91-4e21-a065-98c05b17cf26
+		summarizeBy: sum
+		sourceColumn: Month Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day
+		dataType: int64
+		formatString: 0
+		lineageTag: f434577d-f6ba-4f03-9943-34022375131e
+		summarizeBy: sum
+		sourceColumn: Day
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Quarter Number'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f2c2ed0-e7a4-480d-a572-c1afab6374a8
+		summarizeBy: sum
+		sourceColumn: Quarter Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date DMY'
+		dataType: string
+		lineageTag: d1830f52-a4a1-421a-8f8a-28c5128dfaf3
+		summarizeBy: none
+		sourceColumn: Date DMY
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date YYYYMMDD'
+		dataType: string
+		lineageTag: 7506a5b1-a345-4242-81ff-e87d1b4360b7
+		summarizeBy: none
+		sourceColumn: Date YYYYMMDD
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: 44df9826-21ce-469e-b5cc-d09d425ac21a
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Year Month'
+		dataType: string
+		lineageTag: 00fb24a9-1e51-483f-8505-f850d1bfc315
+		summarizeBy: none
+		sourceColumn: Year Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Calendar Year Period'
+		dataType: string
+		lineageTag: 30123a15-0a34-429b-b30a-0eb658a8ce00
+		summarizeBy: none
+		sourceColumn: Calendar Year Period
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Financial Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: cd4b374a-3358-48b2-bdd5-1974265d26eb
+		summarizeBy: sum
+		sourceColumn: Financial Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'As of Month Number'
+		dataType: int64
+		formatString: 0
+		lineageTag: f11341ac-714d-4e87-ae3e-96ef59fcd439
+		summarizeBy: sum
+		sourceColumn: As of Month Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'As of Month'
+		dataType: string
+		lineageTag: 3fa3bf2b-8799-480c-904b-c24fcb161b09
+		summarizeBy: none
+		sourceColumn: As of Month
+		sortByColumn: 'ORDER As of Month'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Financial Year Period'
+		dataType: string
+		lineageTag: 0cbebfb4-ed14-4d30-ad4e-29f722148d81
+		summarizeBy: none
+		sourceColumn: Financial Year Period
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ORDER As of Month'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8531a92f-3646-4e1f-912e-6fe523e8f4af
+		summarizeBy: sum
+		sourceColumn: ORDER As of Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FY Quarter'
+		dataType: string
+		lineageTag: 6788e81a-1ca4-4e3d-81c3-78b3423e327a
+		summarizeBy: none
+		sourceColumn: FY Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: string
+		lineageTag: a21115eb-e350-49ea-86aa-40d174a52407
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ORDER Month'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4794710e-6a4a-4c64-a4e6-d7325d4594a4
+		summarizeBy: none
+		sourceColumn: ORDER Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column FY
+		dataType: string
+		lineageTag: 177028ad-35f9-459e-ae26-38ab30a0ac64
+		summarizeBy: none
+		sourceColumn: FY
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Year Month Day Hierarchy'
+		lineageTag: 3ea84c2f-c37c-48f2-838c-939076de242f
+
+		level Year
+			lineageTag: cec1d848-1699-458d-b3c7-65add5bfa69a
+			column: Year
+
+		level Month
+			lineageTag: f26706b1-0b39-4ebc-a9bc-f6385e34739a
+			column: Month
+
+		level Day
+			lineageTag: d3a34c67-cf6b-432f-860f-26bed9b4f12b
+			column: Day
+
+	partition Date = m
+		mode: import
+		source =
+				let
+				    StartDate = #date(2020, 1, 1),
+				    EndDate = #date(2026, 6, 30),
+				    FYStartMonth = 7,
+				
+				    DateList = List.Dates(StartDate, Duration.Days(EndDate - StartDate) + 1, #duration(1,0,0,0)),
+				    ToTable = Table.FromList(DateList, Splitter.SplitByNothing(), {"Date"}, null, ExtraValues.Error),
+				    ChangedType = Table.TransformColumnTypes(ToTable, {{"Date", type date}}),
+				
+				    AddYear = Table.AddColumn(ChangedType, "Year", each Date.Year([Date]), Int64.Type),
+				    AddMonthNum = Table.AddColumn(AddYear, "Month Number", each Date.Month([Date]), Int64.Type),
+				    AddDay = Table.AddColumn(AddMonthNum, "Day", each Date.Day([Date]), Int64.Type),
+				    AddQuarterNum = Table.AddColumn(AddDay, "Quarter Number", each Date.QuarterOfYear([Date]), Int64.Type),
+				
+				    AddMonthShort = Table.AddColumn(AddQuarterNum, "Month", each Date.ToText([Date], "MMM", "en-US"), type text),
+				    AddDateDMY = Table.AddColumn(AddMonthShort, "Date DMY", each Date.ToText([Date], "dd MMM yy", "en-US"), type text),
+				    AddDateYMD = Table.AddColumn(AddDateDMY, "Date YYYYMMDD", each Date.ToText([Date], "yyyyMMdd"), type text),
+				    AddQuarterLabel = Table.AddColumn(AddDateYMD, "Quarter", each "Q" & Text.From(Date.QuarterOfYear([Date])), type text),
+				    AddYearMonth = Table.AddColumn(AddQuarterLabel, "Year Month", each Text.From([Year]) & "-" & Text.PadStart(Text.From([Month Number]), 2, "0"), type text),
+				    AddCalendarYearPeriod = Table.AddColumn(AddYearMonth, "Calendar Year Period", each Text.From([Year]) & Text.PadStart(Text.From([Month Number]), 2, "0"), type text),
+				    AddOrderMonthNum = Table.AddColumn(AddCalendarYearPeriod, "ORDER Month", each [Month Number], Int64.Type),
+				
+				    AddFY = Table.AddColumn(AddOrderMonthNum, "Financial Year", each if [Month Number] >= FYStartMonth then [Year] + 1 else [Year], Int64.Type),
+				    AddFYShort = Table.AddColumn(AddFY, "FY", each "FY" & Text.End(Text.From([Financial Year]), 2), type text),
+				    AddFYPeriod = Table.AddColumn(AddFYShort, "As of Month Number", each if [Month Number] >= FYStartMonth then [Month Number] - FYStartMonth + 1 else [Month Number] + (12 - FYStartMonth + 1), Int64.Type),
+				    AddAsOfMonth = Table.AddColumn(AddFYPeriod, "As of Month", each Date.ToText(#date(2000, [Month Number], 1), "MMM", "en-US"), type text),
+				    AddFYPeriodCode = Table.AddColumn(AddAsOfMonth, "Financial Year Period", each Text.From([Financial Year]) & Text.PadStart(Text.From([As of Month Number]), 2, "0"), type text),
+				    AddOrderAsOfMonth = Table.AddColumn(AddFYPeriodCode, "ORDER As of Month", each [As of Month Number], Int64.Type),
+				    AddFYQuarter = Table.AddColumn(AddOrderAsOfMonth, "FY Quarter", each "Q" & Text.From(Number.RoundUp([As of Month Number] / 3)), type text)
+				in
+				    AddFYQuarter
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

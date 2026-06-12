@@ -1,0 +1,501 @@
+SUM_Measure_1,SUM_Measure_2,AVG_Measure_1,CNT_Measure_1,DateKey,Key_Dim_1,Key_Dim_2,Other_Field_1
+194194,36,1.9,1001,2024-02-24,Sales,February,
+271208,9,1.1,1002,2024-12-19,Sales,December,
+154248,74,2.7,1003,2024-09-18,Finance,September,High performer
+472481,25,3.8,1004,2024-05-25,HR,May,
+226472,18,1.4,1005,2024-03-25,Marketing,March,
+72780,63,3.1,1006,2025-06-26,Marketing,June,High performer
+379588,51,3.3,1007,2025-09-27,Engineering,September,
+201722,15,4.4,1008,2024-11-25,Engineering,November,
+487314,51,1.7,1009,2025-05-21,Operations,May,
+408375,14,3.4,1010,2025-11-23,Finance,November,
+292357,53,2.1,1011,2024-12-06,HR,December,On leave
+452817,12,1.9,1012,2025-11-27,Finance,November,
+160615,77,4.5,1013,2025-07-03,Marketing,July,
+387039,63,1.6,1014,2025-11-13,Finance,November,
+356491,59,4.6,1015,2025-12-24,Finance,December,High performer
+308744,16,4.0,1016,2024-04-17,Marketing,April,
+406768,59,3.4,1017,2024-11-26,Finance,November,High performer
+181813,75,4.4,1018,2025-10-17,Operations,October,
+331527,39,4.1,1019,2024-12-22,Sales,December,
+287881,5,4.8,1020,2025-05-06,Engineering,May,
+377837,43,4.4,1021,2024-03-28,HR,March,On leave
+449775,25,3.2,1022,2024-04-12,HR,April,On leave
+60211,19,4.7,1023,2025-10-16,Engineering,October,
+91291,15,3.9,1024,2024-01-19,Finance,January,
+299184,75,1.7,1025,2024-03-22,HR,March,On leave
+445976,30,3.9,1026,2024-07-18,HR,July,High performer
+321358,62,1.5,1027,2025-11-15,Sales,November,
+340414,34,3.4,1028,2024-06-19,Engineering,June,
+85337,9,4.4,1029,2024-12-08,Engineering,December,
+304496,32,3.2,1030,2025-04-22,HR,April,On leave
+297974,57,1.8,1031,2024-08-26,HR,August,
+265535,64,4.5,1032,2025-07-14,Sales,July,
+261089,48,4.2,1033,2024-11-02,Sales,November,
+285202,22,2.7,1034,2024-04-18,Finance,April,
+473636,75,1.4,1035,2024-04-15,Operations,April,On leave
+263078,67,2.9,1036,2024-02-06,Engineering,February,High performer
+254693,38,4.7,1037,2025-03-01,Engineering,March,High performer
+149561,42,1.9,1038,2025-07-05,Marketing,July,
+214419,12,1.2,1039,2024-12-24,HR,December,High performer
+316248,15,4.4,1040,2024-09-02,HR,September,
+112855,77,2.0,1041,2024-02-13,HR,February,On leave
+394652,79,3.3,1042,2024-10-14,Engineering,October,
+189258,55,1.5,1043,2025-04-08,Marketing,April,
+290273,77,5.0,1044,2024-06-01,Operations,June,
+232981,13,4.5,1045,2025-04-05,HR,April,
+334802,43,3.4,1046,2025-03-27,Marketing,March,On leave
+104309,22,2.1,1047,2025-11-22,Engineering,November,
+197721,31,3.9,1048,2024-09-09,Sales,September,
+306131,37,4.6,1049,2025-11-17,Sales,November,
+195060,10,1.0,1050,2025-11-27,Engineering,November,
+281649,75,3.8,1051,2024-05-24,Sales,May,On leave
+128147,74,1.1,1052,2024-02-23,Engineering,February,
+116818,10,2.2,1053,2024-09-14,HR,September,
+103893,50,4.1,1054,2024-04-22,Marketing,April,High performer
+135197,27,4.5,1055,2024-12-08,HR,December,
+265856,36,2.1,1056,2025-12-26,Finance,December,
+154633,63,2.4,1057,2025-01-08,Operations,January,
+222103,40,4.5,1058,2024-01-13,Finance,January,
+492321,73,2.3,1059,2025-11-22,Marketing,November,
+189180,9,1.4,1060,2024-05-19,Engineering,May,High performer
+367828,70,1.5,1061,2025-12-14,Marketing,December,On leave
+278619,5,3.1,1062,2024-05-23,Finance,May,On leave
+276124,13,4.8,1063,2024-12-12,Sales,December,
+207455,69,2.2,1064,2024-06-24,HR,June,High performer
+116735,29,2.7,1065,2025-07-18,Marketing,July,High performer
+348375,43,2.6,1066,2024-12-20,Sales,December,
+461963,79,3.4,1067,2024-05-14,Marketing,May,
+162041,70,2.9,1068,2025-08-22,Operations,August,
+398050,47,1.4,1069,2025-02-17,Sales,February,
+154401,23,1.1,1070,2024-05-26,Sales,May,
+267286,78,1.8,1071,2024-10-15,Operations,October,High performer
+393963,5,4.6,1072,2024-07-05,Operations,July,
+414858,71,2.9,1073,2024-04-26,Operations,April,On leave
+470173,64,3.7,1074,2025-02-05,Finance,February,On leave
+477298,69,2.7,1075,2025-06-20,HR,June,On leave
+185891,36,4.4,1076,2025-03-15,Operations,March,
+280619,14,3.9,1077,2024-08-09,HR,August,
+92245,22,1.6,1078,2025-06-18,Marketing,June,High performer
+267510,57,2.3,1079,2024-03-03,Sales,March,High performer
+270276,54,4.6,1080,2024-01-27,Operations,January,On leave
+53091,50,2.2,1081,2025-01-16,Sales,January,High performer
+165040,39,2.7,1082,2024-09-16,Operations,September,
+136530,64,4.7,1083,2025-06-24,Operations,June,On leave
+345903,8,1.3,1084,2025-01-19,HR,January,High performer
+186396,53,2.3,1085,2024-08-02,Finance,August,High performer
+444269,58,2.0,1086,2025-06-09,Marketing,June,
+167556,13,4.1,1087,2024-01-12,Operations,January,
+60684,24,2.0,1088,2024-04-27,Engineering,April,High performer
+416721,37,4.1,1089,2024-02-15,Sales,February,
+479549,25,4.9,1090,2024-10-25,HR,October,
+405125,53,2.6,1091,2025-01-19,HR,January,
+415529,43,4.4,1092,2024-10-04,Engineering,October,On leave
+329311,59,3.6,1093,2024-10-12,Engineering,October,
+495422,58,4.3,1094,2025-11-01,HR,November,
+130211,60,1.7,1095,2025-06-23,Operations,June,On leave
+278366,80,2.1,1096,2025-05-15,Sales,May,
+443465,64,3.3,1097,2025-05-08,Engineering,May,High performer
+220401,28,3.0,1098,2025-01-28,Marketing,January,
+417622,40,3.2,1099,2025-06-20,Marketing,June,On leave
+263085,67,3.2,1100,2024-02-24,Finance,February,
+465725,7,1.4,1101,2025-08-15,Sales,August,
+398106,79,2.5,1102,2024-12-10,Operations,December,On leave
+338562,47,2.4,1103,2025-06-24,HR,June,High performer
+113258,29,2.3,1104,2025-05-08,Marketing,May,On leave
+437241,66,2.1,1105,2024-03-07,Sales,March,On leave
+486537,29,2.2,1106,2025-10-04,HR,October,
+330040,21,2.1,1107,2024-05-23,Finance,May,
+444679,67,1.4,1108,2024-05-21,HR,May,
+280932,48,1.7,1109,2025-05-16,HR,May,
+84258,56,3.0,1110,2024-08-27,Marketing,August,On leave
+128222,77,4.8,1111,2024-11-05,Sales,November,
+362542,33,4.1,1112,2025-02-20,Finance,February,High performer
+358556,59,2.2,1113,2025-08-28,Operations,August,On leave
+158940,32,2.1,1114,2024-10-25,Engineering,October,
+89355,25,1.0,1115,2024-04-18,Finance,April,High performer
+67112,34,2.2,1116,2025-10-10,Sales,October,
+172381,38,4.2,1117,2024-08-22,Sales,August,On leave
+335507,33,3.6,1118,2025-04-04,Sales,April,
+465565,44,3.4,1119,2024-02-06,Finance,February,On leave
+411065,43,3.8,1120,2024-08-15,Marketing,August,
+92174,10,4.6,1121,2025-09-15,HR,September,
+170022,78,3.3,1122,2024-05-03,HR,May,
+446502,27,2.9,1123,2024-05-25,Sales,May,High performer
+476898,67,4.9,1124,2025-03-21,Marketing,March,High performer
+401342,18,4.4,1125,2025-07-11,Marketing,July,
+397384,56,4.3,1126,2025-12-10,Operations,December,On leave
+182329,46,1.5,1127,2024-08-11,Engineering,August,High performer
+78418,29,3.1,1128,2025-01-14,HR,January,On leave
+77059,31,2.1,1129,2025-11-25,Operations,November,
+65135,35,3.8,1130,2025-08-04,Marketing,August,
+167807,19,2.8,1131,2025-01-03,HR,January,
+203019,70,3.8,1132,2025-03-23,Sales,March,High performer
+339021,23,2.5,1133,2024-08-15,Operations,August,On leave
+86600,40,4.1,1134,2024-12-28,HR,December,High performer
+51344,41,3.9,1135,2025-09-27,Marketing,September,On leave
+127906,62,3.2,1136,2025-11-28,HR,November,
+218704,29,4.9,1137,2025-09-15,Marketing,September,
+456608,57,1.2,1138,2024-07-28,HR,July,High performer
+465442,24,3.0,1139,2025-07-22,Sales,July,
+102619,61,1.4,1140,2025-09-28,Finance,September,High performer
+393293,24,1.3,1141,2024-12-14,Engineering,December,
+92108,47,4.4,1142,2025-10-21,Marketing,October,On leave
+333648,9,3.5,1143,2025-06-28,Operations,June,
+441520,16,2.7,1144,2025-11-08,Sales,November,
+137223,43,4.6,1145,2024-12-15,Sales,December,
+246524,60,1.6,1146,2025-01-12,Marketing,January,On leave
+141786,15,3.4,1147,2024-10-06,Operations,October,High performer
+355742,23,1.9,1148,2024-11-16,HR,November,
+293926,41,3.7,1149,2024-05-26,Operations,May,
+206842,59,3.8,1150,2025-08-19,Engineering,August,High performer
+303340,18,1.9,1151,2025-04-28,Marketing,April,On leave
+204785,7,4.9,1152,2025-10-23,Marketing,October,High performer
+440684,68,4.3,1153,2024-01-20,Marketing,January,
+383771,29,3.5,1154,2025-10-08,Finance,October,
+463459,61,1.1,1155,2024-02-10,Sales,February,
+221294,58,1.7,1156,2024-03-10,Sales,March,
+136268,37,4.7,1157,2025-06-27,HR,June,High performer
+110382,64,4.9,1158,2025-12-26,Marketing,December,
+471835,76,2.5,1159,2025-11-28,Finance,November,High performer
+243245,38,3.3,1160,2024-05-15,Engineering,May,
+63120,76,2.3,1161,2024-11-16,Engineering,November,On leave
+481937,64,4.6,1162,2024-11-21,Finance,November,
+73774,9,2.2,1163,2024-07-05,Sales,July,High performer
+121127,54,2.8,1164,2024-02-18,Engineering,February,On leave
+393367,17,4.3,1165,2024-10-14,Operations,October,On leave
+244264,32,2.8,1166,2024-05-23,Operations,May,
+388074,50,1.2,1167,2025-02-18,Marketing,February,
+397481,32,3.6,1168,2025-02-03,Finance,February,On leave
+116020,77,1.8,1169,2025-01-08,Engineering,January,On leave
+172158,47,4.1,1170,2024-10-27,Finance,October,On leave
+333228,37,4.2,1171,2024-05-05,Engineering,May,
+237822,35,3.4,1172,2024-01-01,Sales,January,
+438873,58,3.1,1173,2024-05-05,Finance,May,
+361251,18,2.8,1174,2025-08-17,Operations,August,
+387295,8,1.2,1175,2025-01-15,HR,January,High performer
+423503,61,1.3,1176,2024-07-16,Operations,July,
+116160,40,3.5,1177,2024-10-03,Marketing,October,On leave
+363205,72,2.2,1178,2025-12-13,HR,December,On leave
+417934,19,4.4,1179,2024-07-26,HR,July,On leave
+169796,57,2.4,1180,2025-04-15,Sales,April,High performer
+273747,45,3.7,1181,2024-07-11,Operations,July,
+97828,15,1.4,1182,2025-11-03,Finance,November,
+118217,76,1.2,1183,2025-12-26,Sales,December,On leave
+235387,59,4.5,1184,2024-06-14,HR,June,
+104316,78,3.0,1185,2025-10-12,Marketing,October,
+106737,49,4.4,1186,2024-08-28,Sales,August,
+274978,76,4.9,1187,2024-05-26,Engineering,May,On leave
+394893,39,1.1,1188,2024-11-20,HR,November,
+53201,28,4.5,1189,2025-05-12,Sales,May,On leave
+438481,8,1.4,1190,2024-07-05,Sales,July,On leave
+228727,25,2.5,1191,2025-07-15,Finance,July,
+131568,25,4.0,1192,2024-10-02,HR,October,
+397046,59,2.9,1193,2025-02-15,Sales,February,High performer
+318617,19,2.4,1194,2024-05-25,Operations,May,
+399769,44,1.2,1195,2025-11-17,Marketing,November,High performer
+208030,32,4.1,1196,2024-01-07,HR,January,
+310773,60,1.7,1197,2024-06-01,Marketing,June,High performer
+342932,50,1.3,1198,2024-12-17,HR,December,
+214133,78,2.7,1199,2025-01-03,Operations,January,High performer
+110384,56,1.1,1200,2025-11-10,Sales,November,
+411554,51,1.4,1201,2025-10-27,Finance,October,
+91233,55,4.5,1202,2025-07-17,Finance,July,
+317640,19,3.1,1203,2024-06-03,Finance,June,
+103899,23,2.0,1204,2024-06-08,Marketing,June,
+455194,68,2.9,1205,2024-03-06,HR,March,On leave
+378842,45,1.6,1206,2025-08-28,HR,August,
+194008,80,1.2,1207,2025-08-26,Operations,August,On leave
+69717,12,2.5,1208,2025-05-15,Engineering,May,
+361468,69,2.5,1209,2024-11-20,Engineering,November,On leave
+474576,78,3.6,1210,2024-12-15,HR,December,
+286203,18,4.2,1211,2024-08-02,HR,August,
+179889,61,5.0,1212,2024-02-02,Sales,February,On leave
+245481,41,2.5,1213,2024-10-12,HR,October,
+380766,47,1.3,1214,2024-10-26,Sales,October,
+182118,24,2.3,1215,2025-11-10,HR,November,On leave
+393961,55,1.5,1216,2025-03-10,Sales,March,
+465058,47,4.3,1217,2025-09-21,Marketing,September,On leave
+239702,7,2.5,1218,2025-11-17,Engineering,November,
+168773,22,1.6,1219,2025-06-07,Finance,June,
+226561,21,3.4,1220,2024-09-22,Engineering,September,
+279466,10,2.6,1221,2024-03-24,Finance,March,
+442448,62,1.9,1222,2025-10-25,Operations,October,
+405628,78,4.9,1223,2024-08-12,Marketing,August,High performer
+478286,30,4.2,1224,2025-07-06,Marketing,July,
+244622,75,4.7,1225,2025-01-28,Marketing,January,On leave
+134049,39,2.8,1226,2024-05-25,Engineering,May,On leave
+478187,62,4.5,1227,2024-07-08,Finance,July,
+246063,35,2.5,1228,2025-01-17,Operations,January,
+101948,47,4.2,1229,2024-04-11,Marketing,April,
+485741,22,4.0,1230,2025-05-23,Engineering,May,High performer
+59963,37,1.9,1231,2024-10-03,Operations,October,
+456937,41,2.0,1232,2025-12-04,HR,December,
+466231,63,1.3,1233,2025-04-21,Engineering,April,High performer
+320205,78,2.0,1234,2024-09-21,HR,September,
+234977,35,3.3,1235,2024-07-20,Marketing,July,
+239060,13,4.8,1236,2024-11-17,Sales,November,On leave
+296486,10,3.5,1237,2024-09-13,HR,September,
+463411,13,2.4,1238,2024-12-12,Marketing,December,
+73244,50,3.2,1239,2025-12-05,HR,December,
+145566,22,1.3,1240,2025-08-21,Sales,August,High performer
+464769,30,4.5,1241,2024-05-02,Engineering,May,
+334704,65,2.0,1242,2025-09-27,Marketing,September,
+393792,47,2.1,1243,2024-06-28,Marketing,June,
+227752,28,3.0,1244,2025-07-13,Operations,July,High performer
+93312,59,1.3,1245,2025-09-26,Marketing,September,On leave
+103790,15,2.3,1246,2025-09-11,Finance,September,
+411635,61,2.4,1247,2025-08-06,Marketing,August,
+385266,12,1.3,1248,2025-06-09,Sales,June,High performer
+124857,61,1.1,1249,2024-09-01,Marketing,September,
+250725,77,1.1,1250,2025-11-12,Finance,November,
+282752,14,3.3,1251,2025-08-12,Sales,August,On leave
+196113,36,4.8,1252,2025-07-21,Marketing,July,
+252892,76,1.5,1253,2025-03-17,Sales,March,
+199724,67,1.8,1254,2024-08-20,Sales,August,
+283366,16,4.2,1255,2024-08-23,Engineering,August,
+334253,42,4.6,1256,2024-06-18,Sales,June,
+239526,70,1.9,1257,2024-12-26,Sales,December,
+239213,75,3.3,1258,2025-04-01,Finance,April,High performer
+212157,55,5.0,1259,2024-03-03,HR,March,High performer
+351413,14,1.5,1260,2025-07-27,HR,July,
+406572,71,2.4,1261,2025-02-15,Sales,February,On leave
+117650,60,3.0,1262,2024-10-25,Sales,October,
+136327,25,2.3,1263,2024-09-10,Engineering,September,
+91345,37,1.8,1264,2025-09-28,Marketing,September,On leave
+329696,16,3.0,1265,2025-03-20,Marketing,March,
+395365,48,4.4,1266,2024-10-06,HR,October,On leave
+386306,78,2.1,1267,2024-01-02,Engineering,January,
+378814,74,2.2,1268,2024-07-16,HR,July,
+287787,14,3.8,1269,2025-04-10,Operations,April,
+156966,48,3.4,1270,2025-07-15,Operations,July,
+118559,52,3.1,1271,2025-06-13,Sales,June,
+190232,62,2.0,1272,2025-04-04,Marketing,April,
+372635,58,2.0,1273,2025-05-28,Engineering,May,
+450095,25,3.0,1274,2025-10-07,Marketing,October,On leave
+62151,16,4.8,1275,2025-08-16,Operations,August,On leave
+235018,11,1.2,1276,2024-04-19,Operations,April,High performer
+331380,6,4.4,1277,2025-11-10,HR,November,High performer
+261421,51,1.2,1278,2025-05-25,Finance,May,
+340048,41,1.3,1279,2024-09-12,HR,September,On leave
+376758,20,1.5,1280,2025-09-27,Operations,September,
+241683,23,1.8,1281,2025-06-18,Operations,June,On leave
+70402,22,3.9,1282,2024-09-02,Operations,September,High performer
+320273,22,2.3,1283,2024-08-20,HR,August,On leave
+437616,43,3.4,1284,2025-03-20,Marketing,March,On leave
+345134,43,2.9,1285,2025-09-23,HR,September,
+356028,44,4.2,1286,2024-06-14,Marketing,June,
+460467,79,3.3,1287,2025-08-21,HR,August,
+379790,53,1.6,1288,2024-08-17,HR,August,
+59928,61,2.3,1289,2024-10-07,Engineering,October,
+313097,65,4.5,1290,2024-12-14,Operations,December,
+220419,66,3.1,1291,2024-03-18,Sales,March,
+235748,38,3.4,1292,2025-08-18,Finance,August,
+206035,41,3.8,1293,2025-05-08,Finance,May,High performer
+467021,40,2.2,1294,2025-08-18,Marketing,August,On leave
+479065,49,4.8,1295,2025-09-13,Sales,September,
+91434,49,4.7,1296,2025-01-23,Marketing,January,
+484085,73,2.1,1297,2024-08-07,Sales,August,On leave
+372792,80,2.0,1298,2024-05-04,Sales,May,
+172073,11,1.4,1299,2024-09-21,Sales,September,
+454103,22,1.0,1300,2024-08-22,Sales,August,On leave
+391069,30,4.0,1301,2025-07-16,Finance,July,
+96903,78,1.9,1302,2024-05-25,Marketing,May,
+488411,55,4.2,1303,2024-07-02,Finance,July,
+206443,77,3.4,1304,2024-05-01,Sales,May,
+496200,69,2.9,1305,2025-08-05,Marketing,August,
+290603,37,3.9,1306,2024-06-24,Engineering,June,
+403580,29,1.7,1307,2025-06-19,Sales,June,High performer
+260152,17,1.7,1308,2025-09-03,Operations,September,
+186726,54,1.9,1309,2024-06-01,Operations,June,
+392718,51,3.8,1310,2024-05-09,Marketing,May,
+133737,56,3.7,1311,2025-02-10,Sales,February,
+372240,33,1.9,1312,2025-02-12,Sales,February,
+367581,52,2.7,1313,2025-03-24,Operations,March,On leave
+179743,15,3.1,1314,2024-09-25,Operations,September,On leave
+108829,12,4.3,1315,2024-06-19,Sales,June,On leave
+222028,71,2.8,1316,2024-10-06,Finance,October,
+317583,62,4.2,1317,2025-10-03,Sales,October,High performer
+345651,12,3.2,1318,2025-09-15,Finance,September,
+478056,5,4.0,1319,2025-01-09,Sales,January,On leave
+417203,13,3.2,1320,2025-01-12,Engineering,January,
+264364,28,4.1,1321,2024-08-10,Engineering,August,High performer
+247916,53,1.3,1322,2025-07-28,Marketing,July,On leave
+143571,73,2.6,1323,2025-11-04,Finance,November,
+61919,43,2.9,1324,2024-04-25,Sales,April,On leave
+170410,36,2.8,1325,2025-09-27,Operations,September,
+474399,58,3.5,1326,2024-04-02,Marketing,April,
+361397,9,2.8,1327,2024-04-04,Finance,April,
+280142,34,3.2,1328,2024-12-13,Finance,December,
+477706,78,2.3,1329,2025-09-08,Finance,September,On leave
+125109,71,1.9,1330,2024-06-10,Sales,June,
+405860,59,3.2,1331,2024-01-21,Marketing,January,
+324969,45,3.8,1332,2025-11-26,Marketing,November,High performer
+445531,73,2.9,1333,2025-05-06,Finance,May,
+292758,12,3.2,1334,2024-12-26,Marketing,December,High performer
+177327,37,1.8,1335,2024-09-13,HR,September,
+429891,29,1.2,1336,2024-06-18,Operations,June,High performer
+88159,29,4.2,1337,2024-10-28,Sales,October,On leave
+159518,47,2.2,1338,2024-11-16,Sales,November,
+445486,66,4.7,1339,2024-04-24,Finance,April,On leave
+339448,46,4.1,1340,2025-04-08,Sales,April,High performer
+187133,51,3.1,1341,2025-09-10,Operations,September,High performer
+490260,45,4.7,1342,2025-02-25,Operations,February,
+166011,23,1.1,1343,2024-07-19,Marketing,July,On leave
+129907,30,2.3,1344,2025-10-10,HR,October,High performer
+393203,48,2.0,1345,2025-04-18,HR,April,High performer
+138202,50,1.7,1346,2025-11-15,Sales,November,On leave
+67733,14,4.8,1347,2024-03-17,Operations,March,
+380669,34,1.3,1348,2024-07-27,Engineering,July,
+81693,66,3.6,1349,2025-04-12,Engineering,April,
+58769,72,3.9,1350,2025-09-01,Engineering,September,On leave
+143987,18,4.7,1351,2025-01-26,Marketing,January,On leave
+326014,37,4.3,1352,2024-04-20,Finance,April,
+290647,77,2.0,1353,2025-02-13,Operations,February,
+499954,9,1.4,1354,2024-11-21,Marketing,November,High performer
+383839,6,3.8,1355,2025-09-02,Operations,September,
+499818,17,4.6,1356,2025-07-19,Operations,July,
+74411,14,3.7,1357,2025-04-09,Finance,April,
+495868,45,1.1,1358,2024-10-06,HR,October,
+206907,25,3.3,1359,2025-03-03,HR,March,On leave
+446156,22,4.2,1360,2025-11-13,Operations,November,
+101215,60,1.9,1361,2025-12-02,HR,December,
+221115,8,3.5,1362,2025-10-25,Marketing,October,High performer
+246831,60,1.7,1363,2025-04-18,Operations,April,On leave
+374332,42,4.2,1364,2024-07-25,Sales,July,
+423123,24,4.0,1365,2024-05-13,Engineering,May,
+211620,61,2.4,1366,2024-02-01,Marketing,February,
+275957,62,3.2,1367,2024-03-06,Engineering,March,On leave
+235553,75,1.4,1368,2024-02-03,Operations,February,On leave
+266955,54,4.1,1369,2024-07-10,Marketing,July,On leave
+249613,26,1.6,1370,2024-10-22,Finance,October,
+137664,60,2.1,1371,2024-08-03,Marketing,August,
+179284,68,3.4,1372,2025-02-09,Operations,February,
+53548,55,2.3,1373,2024-02-10,Operations,February,On leave
+275766,22,2.2,1374,2025-06-11,Operations,June,On leave
+143133,55,4.9,1375,2025-04-11,Sales,April,
+459979,36,2.3,1376,2025-12-19,Sales,December,
+154752,80,5.0,1377,2024-06-19,Operations,June,
+292022,31,2.8,1378,2024-09-24,Sales,September,
+311778,22,3.5,1379,2025-02-22,Sales,February,
+271840,53,1.3,1380,2024-11-23,Marketing,November,On leave
+315610,58,3.2,1381,2025-10-18,Operations,October,
+453153,36,3.6,1382,2024-09-04,Sales,September,
+388182,56,4.9,1383,2024-11-19,Finance,November,
+185653,33,3.0,1384,2024-02-04,Operations,February,On leave
+246146,55,2.9,1385,2024-10-15,HR,October,On leave
+62877,66,1.4,1386,2024-09-12,Sales,September,High performer
+213520,48,2.8,1387,2024-02-12,Engineering,February,
+101182,61,3.9,1388,2025-08-16,HR,August,High performer
+474770,19,1.1,1389,2025-02-02,Marketing,February,
+177880,71,1.7,1390,2024-02-24,Sales,February,
+171559,56,3.5,1391,2025-09-15,Marketing,September,
+65305,30,2.8,1392,2025-11-13,Sales,November,High performer
+195932,13,3.3,1393,2024-01-07,Operations,January,On leave
+289888,19,2.0,1394,2025-06-07,Finance,June,High performer
+253758,55,3.3,1395,2025-11-20,HR,November,
+403154,43,4.7,1396,2024-08-27,Marketing,August,On leave
+111793,35,2.2,1397,2024-11-11,Engineering,November,
+253666,58,3.4,1398,2024-12-17,Marketing,December,On leave
+383185,73,3.8,1399,2024-07-16,Operations,July,
+123555,28,2.3,1400,2025-03-10,HR,March,High performer
+304074,22,1.8,1401,2025-01-01,HR,January,High performer
+408978,67,2.7,1402,2025-09-14,HR,September,High performer
+66179,33,2.2,1403,2024-03-19,Operations,March,
+459332,63,3.3,1404,2025-09-06,Finance,September,High performer
+109877,39,4.1,1405,2024-09-19,HR,September,
+164578,59,1.4,1406,2025-01-18,HR,January,
+232754,16,2.8,1407,2025-01-09,Marketing,January,
+422639,59,1.7,1408,2025-04-28,Finance,April,
+233928,73,2.1,1409,2024-04-19,Finance,April,On leave
+350278,39,4.8,1410,2025-06-10,Finance,June,On leave
+461928,57,4.7,1411,2024-02-25,Sales,February,
+126673,46,4.3,1412,2024-03-08,Sales,March,High performer
+267173,53,2.8,1413,2025-03-21,Operations,March,
+243499,63,4.8,1414,2025-09-23,Operations,September,
+290359,50,4.4,1415,2024-01-24,HR,January,On leave
+161071,68,2.1,1416,2025-04-27,Operations,April,
+496914,67,4.2,1417,2024-09-19,Marketing,September,
+115136,25,2.8,1418,2025-02-01,Engineering,February,
+208264,25,4.5,1419,2024-04-21,Operations,April,
+93212,52,3.7,1420,2025-11-09,Engineering,November,
+416708,34,2.7,1421,2025-07-24,Engineering,July,
+299984,14,1.5,1422,2024-02-07,Sales,February,
+54227,48,4.3,1423,2025-11-01,HR,November,High performer
+170034,54,1.4,1424,2025-03-03,Sales,March,
+121895,53,4.1,1425,2025-06-10,Engineering,June,
+328139,77,1.0,1426,2024-11-03,Sales,November,
+442308,24,4.7,1427,2024-06-21,Operations,June,On leave
+102672,22,4.0,1428,2024-08-03,Sales,August,On leave
+214890,22,2.0,1429,2025-07-14,Sales,July,
+412008,8,4.4,1430,2025-09-25,Finance,September,
+255390,42,3.6,1431,2024-09-24,Finance,September,
+311925,14,3.1,1432,2024-07-08,Operations,July,
+489863,77,2.7,1433,2024-06-13,Marketing,June,On leave
+88268,7,3.3,1434,2025-03-25,Sales,March,
+463815,55,3.0,1435,2024-04-02,Marketing,April,On leave
+385826,73,3.2,1436,2025-07-03,Operations,July,
+318070,31,4.9,1437,2025-02-03,Marketing,February,
+382552,13,2.2,1438,2025-06-19,HR,June,High performer
+95200,60,1.5,1439,2024-04-08,Sales,April,On leave
+438861,27,1.5,1440,2025-01-22,HR,January,
+231773,71,3.1,1441,2024-01-16,Sales,January,
+459533,39,3.9,1442,2024-06-24,Finance,June,
+324650,13,2.1,1443,2025-06-09,Engineering,June,On leave
+317796,51,1.2,1444,2025-02-15,Sales,February,On leave
+455447,18,4.6,1445,2024-06-09,Finance,June,
+56442,36,1.2,1446,2024-12-02,Finance,December,
+68540,75,4.2,1447,2024-03-28,Operations,March,High performer
+427638,45,2.1,1448,2024-06-14,Finance,June,
+403016,11,1.7,1449,2024-06-17,HR,June,On leave
+198010,44,2.3,1450,2024-07-15,Engineering,July,On leave
+202879,77,4.1,1451,2025-01-07,Operations,January,On leave
+308663,30,3.9,1452,2025-08-19,Finance,August,On leave
+62535,34,3.2,1453,2024-03-14,Finance,March,
+436967,44,1.4,1454,2025-01-28,Marketing,January,On leave
+124644,40,1.4,1455,2025-07-02,Finance,July,
+442114,15,3.3,1456,2025-07-15,HR,July,On leave
+360323,77,1.2,1457,2025-11-03,Finance,November,
+215155,55,3.8,1458,2025-05-28,Finance,May,
+89157,30,1.5,1459,2025-08-08,Marketing,August,On leave
+285702,64,2.3,1460,2024-03-06,Engineering,March,
+211642,64,2.1,1461,2024-06-15,HR,June,
+419468,10,1.9,1462,2025-03-27,Engineering,March,
+257746,70,1.2,1463,2024-02-12,Finance,February,
+498057,62,3.2,1464,2024-03-13,Marketing,March,On leave
+471473,22,1.5,1465,2025-02-04,Finance,February,
+260020,52,3.7,1466,2024-03-27,Finance,March,
+89314,7,5.0,1467,2025-10-27,HR,October,
+494216,47,1.5,1468,2024-08-03,Sales,August,High performer
+429810,55,3.0,1469,2025-03-27,Engineering,March,High performer
+162573,28,2.1,1470,2024-07-12,Sales,July,High performer
+204720,68,2.6,1471,2024-01-21,Finance,January,On leave
+250810,22,2.7,1472,2024-01-09,Operations,January,On leave
+459949,50,2.9,1473,2024-11-13,Finance,November,High performer
+191786,28,1.1,1474,2025-10-13,Marketing,October,On leave
+473967,65,3.1,1475,2025-01-02,Finance,January,On leave
+394386,35,2.1,1476,2024-03-08,Finance,March,
+489994,27,1.7,1477,2025-10-12,Finance,October,On leave
+64788,50,4.8,1478,2025-12-19,Marketing,December,On leave
+474883,68,3.2,1479,2024-10-27,Finance,October,
+171961,33,1.1,1480,2024-01-02,Operations,January,High performer
+118414,48,3.9,1481,2024-06-26,Engineering,June,
+419463,23,4.1,1482,2024-01-19,Engineering,January,On leave
+397151,55,3.3,1483,2025-02-23,Marketing,February,
+433963,60,4.2,1484,2024-06-06,Marketing,June,High performer
+344637,50,1.9,1485,2024-06-23,Sales,June,On leave
+410971,42,1.5,1486,2025-07-24,Finance,July,
+454137,77,1.1,1487,2025-10-28,Sales,October,On leave
+346511,18,4.7,1488,2024-10-21,Marketing,October,
+231828,45,1.7,1489,2024-12-08,Marketing,December,
+55974,38,1.8,1490,2025-11-15,Sales,November,
+50671,11,2.5,1491,2024-05-24,Marketing,May,High performer
+234146,74,2.5,1492,2025-07-13,Finance,July,High performer
+286604,14,4.2,1493,2024-11-06,HR,November,
+104906,14,2.4,1494,2025-01-09,Marketing,January,High performer
+98813,48,3.4,1495,2024-12-18,Finance,December,On leave
+392693,26,3.4,1496,2024-12-14,Operations,December,High performer
+157767,29,2.6,1497,2024-01-11,Finance,January,On leave
+197599,43,2.0,1498,2025-12-22,Sales,December,
+78576,51,1.0,1499,2025-10-05,Operations,October,
+100849,8,1.8,1500,2025-11-07,Marketing,November,

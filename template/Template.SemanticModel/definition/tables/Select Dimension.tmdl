@@ -1,0 +1,51 @@
+table 'Select Dimension'
+	lineageTag: aebb6f46-61a1-4ac0-94bb-1daa401e6f6c
+
+	column 'Select Dimension'
+		lineageTag: 9a6e4e34-8f40-49b0-9343-82ab61e1f603
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'test Order'
+
+		relatedColumnDetails
+			groupByColumn: 'test Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'test Fields'
+		isHidden
+		lineageTag: c5145de1-6a9a-41c3-bdd9-81785d7ec90d
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'test Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'test Order'
+		isHidden
+		formatString: 0
+		lineageTag: 1881c21c-d590-40d9-923b-c48eb8a20d45
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Select Dimension' = calculated
+		mode: import
+		source =
+				{
+				    ("Key_Dim_1", NAMEOF('Fact'[Key_Dim_1]), 0),
+				    ("Key_Dim_2", NAMEOF('Fact'[Key_Dim_2]), 1),
+				    ("Key_Dim_3", NAMEOF('Fact'[Key_Dim_3]), 2),
+				    ("Key_Dim_4", NAMEOF('Fact'[Key_Dim_4]), 3),
+				    ("Key_Dim_5", NAMEOF('Fact'[Key_Dim_5]), 4)
+				}
+
+	annotation PBI_Id = b597df24c24443a0845ae64302824429
+

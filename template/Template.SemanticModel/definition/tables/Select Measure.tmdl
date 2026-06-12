@@ -1,0 +1,50 @@
+table 'Select Measure'
+	lineageTag: 7af15d22-62c5-4efa-a44a-eb72ca1f4e1a
+
+	column 'Select Measure'
+		lineageTag: 30b7e1b5-b3a5-4c68-9255-a353228d3e4d
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Select Measure Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Select Measure Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Select Measure Fields'
+		isHidden
+		lineageTag: affbe3e9-66d9-4985-b9b3-71145c0635ee
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Select Measure Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Select Measure Order'
+		isHidden
+		formatString: 0
+		lineageTag: 7d24d749-45a6-409c-9000-ab5e4773599d
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Select Measure' = calculated
+		mode: import
+		source =
+				{
+				    ("SUM_Measure_1", NAMEOF('Fact'[DAX_SUM_Measure_1]), 0),
+				    ("SUM_Measure_2", NAMEOF('Fact'[DAX_SUM_Measure_2]), 1),
+				    ("CNT_Measure_1", NAMEOF('Fact'[DAX_CNT_Measure_1]), 2),
+				    ("CNT_Measure_2", NAMEOF('Fact'[DAX_CNT_Measure_2]), 3)
+				}
+
+	annotation PBI_Id = 77b2f06fbeda45afa8b32230d9a19413
+

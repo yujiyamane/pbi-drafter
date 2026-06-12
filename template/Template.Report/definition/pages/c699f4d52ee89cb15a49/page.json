@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "c699f4d52ee89cb15a49",
+  "displayName": "Visuals",
+  "displayOption": "ActualSize",
+  "height": 2020,
+  "width": 2020,
+  "visibility": "HiddenInViewMode"
+}

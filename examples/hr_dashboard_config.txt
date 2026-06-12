@@ -1,0 +1,13 @@
+/*FACTORY
+TITLE: HR Dashboard
+THEME(1:nsw-blue): 1
+DB(1:Oracle 2:PostgreSQL 3:Snowflake 4:CSV 5:Excel): 4
+SOURCE: examples/sample_hr_data.csv
+
+1.CNT(max5): ①SUM_Measure_1 AS "Record ID" ②③④⑤
+2.SUM(max10): ①SUM_Measure_1 AS "Total Budget"($#,0.00) ②SUM_Measure_2 AS "Headcount"(#) ③④⑤⑥⑦⑧⑨⑩
+3.AVG(max5): ①AVG_Measure_1 AS "Avg Rating"(#.0) ②③④⑤
+4.DATE: DateKey AS "Date Reported"
+5.KEY(max10): ①Key_Dim_1 AS "Department" ②Key_Dim_2 AS "Month Name" ③④⑤⑥⑦⑧⑨⑩
+6.OTHER: Other_Field_1 AS "Notes"
+*/
